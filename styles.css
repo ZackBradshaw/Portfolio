@@ -1,0 +1,59 @@
+@import 'tailwindcss/base';
+@import 'tailwindcss/components';
+@import 'tailwindcss/utilities';
+
+body {
+    background-color: #1a202c;
+    color: #a0aec0;
+}
+
+.container {
+    max-width: 960px;
+    margin: 0 auto;
+    padding: 0 1.5rem;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 2rem 0;
+}
+
+.footer {
+    text-align: center;
+    padding: 2rem 0;
+}
+
+.project-card {
+    background-color: #2d3748;
+    border-radius: 0.25rem;
+    padding: 1.5rem;
+    margin-bottom: 1.5rem;
+}
+
+.stats-card {
+    background-color: #2d3748;
+    border-radius: 0.25rem;
+    padding: 1.5rem;
+    margin-bottom: 1.5rem;
+}
+
+.card-title {
+    font-size: 1.25rem;
+    font-weight: 700;
+    margin-bottom: 0.5rem;
+}
+
+.card-description {
+    margin-bottom: 1rem;
+}
+
+.card-link {
+    color: #63b3ed;
+    text-decoration: none;
+}
+
+.card-link:hover {
+    text-decoration: underline;
+}
